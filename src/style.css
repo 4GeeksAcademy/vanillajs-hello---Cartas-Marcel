@@ -1,5 +1,52 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
-    background: white;
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #0b3d0b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, serif;
+}
+
+
+.table {
+  background-color: green;
+  padding: 40px;
+}
+
+
+.card {
+  background-color: white;
+  width: 250px;
+  height: 350px;
+  border-radius: 12px;
+  padding: 20px;
+  position: relative;
+}
+
+
+.top-suit {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 50px;
+}
+
+
+.bottom-suit {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  font-size: 50px;
+  transform: rotate(180deg);
+}
+
+
+.number {
+  font-size: 80px;
+  text-align: center;
+  margin-top: 120px;
 }
